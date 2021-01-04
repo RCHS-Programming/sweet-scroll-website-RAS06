@@ -5,7 +5,7 @@ body, html {
   color: White;
 }
 
-.cd-logo {
+.cd-logo, .kitchen-equipment, .cake-ingredients {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -25,10 +25,16 @@ h3 {
   text-transform: uppercase;
   font: 20px "Lato", sans-serif;
   color: white;
-  text-align:center
+  text-align:center;
 }
 
 .textSection {
   background-color:#642580;
   padding:50px 80px;
+}
+.kitchen-equipment { 
+  background-image: url("utensils.JPG");
+}
+.cake-ingredients { 
+  background-image: url("ingredients.jpg");
 }

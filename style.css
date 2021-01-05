@@ -5,13 +5,15 @@ body, html {
   color: White;
 }
 
-.cd-logo, .kitchen-equipment, .cake-ingredients {
+.cd-logo, .kitchen-equipment, .cake-ingredients, .cookbook, .rosecake {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-color: #642580;
   background-size: cover;
-  min-height: 100%;
+  min-height: 90%;
+  background-attachment: fixed;
+  opacity: 1;
 }
 
 .cd-logo {
@@ -32,9 +34,34 @@ h3 {
   background-color:#642580;
   padding:50px 80px;
 }
+
 .kitchen-equipment { 
   background-image: url("utensils.JPG");
 }
+
 .cake-ingredients { 
   background-image: url("ingredients.jpg");
+}
+
+.cookbook {
+  background-image: url(instructions/images/cookbook.png);
+}
+
+.rosecake {
+  background-image: url(rosecake.jpg);
+}
+
+.caption { 
+position: absolute;
+top: 40%;
+width: 100%;
+text-align: center;
+}
+
+.border {
+  background-color: #41BAC1;
+  color: white;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
 }

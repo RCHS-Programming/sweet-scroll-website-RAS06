@@ -67,7 +67,7 @@ text-align: center;
 }
 
 @media only screen and (max-device-width: 1024px) {
-    .cd-logo, .layer-cake, .kitchen-equipment, .cake-ingredients, .bowl-of-cakemix, .cake-in-oven, .decorated-cake {
+    .cd-logo, .layer-cake, .kitchen-equipment, .cake-ingredients, .bowl-of-cakemix, .cake-in-oven, .decorated-cake, .rosecake, .cookbook {
         background-attachment: scroll;
     }
 }
